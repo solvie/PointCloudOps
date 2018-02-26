@@ -1,6 +1,6 @@
 function [ distancevector ] = distanceToPlane( pointsmatrix, planemodel )
-    distancevector= zeros(1,size(pointsmatrix,1));
-    for i = 1: size(pointsmatrix,1)
+    distancevector= zeros(size(pointsmatrix,1));
+    for i = 1: length(pointsmatrix)
         a= planemodel.Parameters(1);
         b= planemodel.Parameters(2);
         c= planemodel.Parameters(3);
