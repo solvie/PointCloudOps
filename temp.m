@@ -31,3 +31,11 @@ cleanedcloud = pointCloud(cleanedroom);
 
 %save point cloud to a pcd file
 pcwrite(cleanedcloud,'cleanedcloud.pcd')
+
+
+%plane fitting
+model = pcfitplane(pointCloud(W_cleaned_mid),2);
+%show it in the same graph
+pcshow(W_cleaned_mid);
+hold on;
+plot(model);
