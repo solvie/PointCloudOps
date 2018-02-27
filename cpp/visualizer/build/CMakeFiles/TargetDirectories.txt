@@ -1,3 +1,0 @@
-/playground/PointCloudOps/cpp/visualizer/build/CMakeFiles/rebuild_cache.dir
-/playground/PointCloudOps/cpp/visualizer/build/CMakeFiles/edit_cache.dir
-/playground/PointCloudOps/cpp/visualizer/build/CMakeFiles/point_cloud_visualizer.dir
